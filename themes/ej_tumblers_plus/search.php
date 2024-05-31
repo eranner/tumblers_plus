@@ -20,7 +20,7 @@ require('includes/navbar.php');
                     
                         <div class="search-thumbnail">
                             <a href="<?php the_permalink(); ?>">
-                                <?php the_post_thumbnail( 'thumbnail', ['class'=>'img-fluid'] ); ?>
+                                <?php the_post_thumbnail( 'thumbnail' ); ?>
                             </a>
                         </div>
                     <?php endif; ?>

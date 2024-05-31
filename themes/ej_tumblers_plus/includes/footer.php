@@ -19,7 +19,7 @@
             </div>
             <div class="footer-right">
                 <div class="footer-links">
-                    <a href="">Shop</a>
+                    <a href="<?php echo get_site_url();?>">Shop</a>
                     <a href="">Personalize</a>
                     <a href="">About</a>
                     <a href="">Contact</a>

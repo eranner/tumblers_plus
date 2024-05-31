@@ -1,7 +1,7 @@
 <div style="background-color:#E948B6;">
     <div class="container thirsty-for-more">
         <h2>Thirsty For <br> More?</h2>
-        <a href="/shop/"><button class="shop-all-products-button">
+        <a href="<?php echo get_site_url().'/shop/';?>"><button class="shop-all-products-button">
             Shop All Products
         </button></a>
         <div class="cta-email-list">

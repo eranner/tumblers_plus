@@ -17,7 +17,7 @@
   </button>
 </div>
 <div class="shop-all-categories">
-<a class="shop-all-categories" href="/shop/"><button>Shop All Categories</button></a>
+<a class="shop-all-categories" href="<?php echo get_site_url().'/shop/';?>"><button>Shop All Categories</button></a>
 </div>
 </div>
 </div>

@@ -1,5 +1,6 @@
 <div style="background: #F2E9F4;">
-<div class="container why-buy-from-us">
+<?php echo load_reasons_to_buy();?>
+<!-- <div class="container why-buy-from-us">
     <h2>Why buy from us?</h2>
     <div class="reason-to-buy">
         <div >
@@ -21,5 +22,5 @@
         </div>
         <div class="reason-text">High quality materials and custom design - much better than anything you’ll find on Etsy!</div>
     
-</div>
+</div> -->
 </div>

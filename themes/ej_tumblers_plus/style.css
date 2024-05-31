@@ -89,6 +89,7 @@ License: GNU General Public License v2 or later
     text-shadow: 3px 3px 3px #333;
     border-color: #504354;
     box-shadow: #504354 3px 3px 2px;
+    font-family: Tumblers-Fancy;
     
   }
 
@@ -158,6 +159,7 @@ License: GNU General Public License v2 or later
     background:#8E24CA;
     width: 275px;
     text-shadow: 2px 2px 3px #504354;
+    font-family: Tumblers-Fancy;
   }
 
   .cta-form {
@@ -259,6 +261,7 @@ License: GNU General Public License v2 or later
     text-shadow: 2px 2px 3px #504354;
 
  }
+
 
  /*
 .related {

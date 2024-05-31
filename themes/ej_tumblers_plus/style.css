@@ -351,6 +351,8 @@ font-family: Tumblers-Fancy;
 .about-page-container {
   margin-top: 100px;
   max-width: 1200px;
+  background-color: white;
+  padding: 30px;
 }
 
 .about-page-container >h2{
@@ -362,6 +364,11 @@ font-family: Tumblers-Fancy;
 .about-page-container > p {
   font-size: 1.5rem;
   margin-top: 30px;
+}
+
+.about-page-outline {
+  padding-top:5px;
+  background-color: #BC36C0;
 }
 @media  screen and (min-width: 990px ) {
     .navbar-container-holder {
@@ -426,5 +433,9 @@ font-family: Tumblers-Fancy;
   .about-page-container > p {
     font-size: 1rem;
 
+  }
+
+  .about-page-outline {
+    padding-top: 0;
   }
 }

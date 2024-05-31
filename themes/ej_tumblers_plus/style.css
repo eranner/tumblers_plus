@@ -347,6 +347,22 @@ font-family: Tumblers-Fancy;
   border-radius: 10px;
   font-size: 1.2em;
 }
+
+.about-page-container {
+  margin-top: 100px;
+  max-width: 1200px;
+}
+
+.about-page-container >h2{
+  font-family: tumblers-fancy;
+  text-align: center;
+  font-size: 5em;
+}
+
+.about-page-container > p {
+  font-size: 1.5rem;
+  margin-top: 30px;
+}
 @media  screen and (min-width: 990px ) {
     .navbar-container-holder {
         background-color: white;
@@ -386,9 +402,15 @@ font-family: Tumblers-Fancy;
         justify-content: center!important;
         gap: 20px;
     }
+
+
     
 }
-
+@media screen and (max-width: 900px) {
+  .about-page-container >h2{
+    font-size: 3.5em;
+  }
+}
 @media screen and (max-width: 600px) {
   
   .search-card-holder {
@@ -396,5 +418,13 @@ font-family: Tumblers-Fancy;
     align-items: center;
     text-align: center;
     border-bottom: 1px  solid rgb(201, 200, 200);
+  }
+
+  .about-page-container >h2{
+    font-size: 2em;
+  }
+  .about-page-container > p {
+    font-size: 1rem;
+
   }
 }

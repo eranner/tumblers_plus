@@ -23,10 +23,10 @@
             <a class="nav-link" href="#">Personalize</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="<?php echo get_site_url().'/about/';?>">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="<?php echo get_site_url().'/contact/';?>">Contact</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="<?php echo get_site_url().'/cart/';?>"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">

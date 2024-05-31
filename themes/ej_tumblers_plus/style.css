@@ -1,0 +1,329 @@
+/* 
+Theme Name: EJ Web Design - Tumblers-Plus
+Author: Eric Ranner
+Author URI: https://dev.eranner.website
+Descripton: A custom theme for Tumblers-Plus.com.
+Version: 1.0
+License: GNU General Public License v2 or later
+*/
+@font-face {
+    font-family: tumblers-fancy;
+    src: url('./fonts/Blatant-Bold.otf');
+}
+.ej-tumblers-navbar-logo {
+    max-height: 70px;
+    padding-left: 1em;
+}
+
+.toggle-button-wrapper {
+    background: #8E24CA;
+    width: 40%;
+    height: 100px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-container-holder {
+    padding: 0;
+}
+
+.navbar-toggler {
+    border-color: white; /* Change the border color to white */
+    border-width: 2px; /* Make the border thicker */
+  }
+  
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+
+  .offcanvas-body {
+    background: #8E24CA;
+    font-family: tumblers-fancy;
+    text-shadow: 3px 3px 3px #333;
+    font-size: 1.5rem;
+  }
+
+  .category-chooser {
+    padding-top: 100px;
+    background: #BC36C0;
+    font-family: tumblers-fancy;
+  }
+
+  .category-chooser >h2 {
+    color: white;
+    text-shadow: 2px 2px 4px #333;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 34px;
+  }
+
+  .category-chooser > h6 {
+    color: white;
+    text-shadow: 2px 2px 2px #333;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+
+  .nav-item > a{
+    color: white!important;
+  }
+
+  .shop-all-categories {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .shop-all-categories > a {
+    text-decoration: none;
+  }
+  .shop-all-categories > button {
+    font-size: 34px;
+    border-radius: 10px;
+    color: white;
+    background-color: #E948B6;
+    text-shadow: 3px 3px 3px #333;
+    border-color: #504354;
+    box-shadow: #504354 3px 3px 2px;
+    
+  }
+
+  .why-buy-from-us {
+    background: #F2E9F4;
+    display:flex;
+    flex-direction: column;
+    font-family: tumblers-fancy;
+
+  }
+  .why-buy-from-us >h2 {
+    color: #504354;
+    text-shadow: 2px 2px 4px white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 34px;
+  }
+
+  .reason-to-buy {
+    display:flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+
+  .plus-sign {
+    height: 35px;
+    padding-top: 10px;
+  }
+
+  .reason-text {
+    font-family: tumblers-fancy;
+    font-size: 28px;
+    color: #504354;
+    line-height: 1em;
+
+  }
+
+  .thirsty-for-more {
+    font-family: tumblers-fancy;
+    padding-bottom: 50px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .thirsty-for-more > h2 {
+    color: white;
+    text-shadow: 2px 2px 4px #333;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 34px;
+    padding-bottom: 10px;
+  }
+
+  .cta-email-list > h6 {
+    color:#504354;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 50px;
+  }
+
+  .shop-all-products-button {
+    font-size: 32px;
+    border-radius: 10px;
+    color: white;
+    background:#8E24CA;
+    width: 275px;
+    text-shadow: 2px 2px 3px #504354;
+  }
+
+  .cta-form {
+    display:flex;
+    justify-content: center;
+    max-width: 350px;
+    margin:auto;
+  }
+
+  .subscribe-button {
+    font-size: 20px;
+    color: white;
+    border-radius: 0 10px 10px 0;
+    border:none;  
+    background:#8E24CA;
+    border-right: 2px solid #504354;
+    border-top: 2px solid #504354;
+    border-bottom: 2px solid #504354;
+}
+
+.email-input {
+    border-left: 2px solid #504354;
+    border-top: 2px solid #504354;    
+    border-bottom: 2px solid #504354;
+    border-radius: 10px 0 0 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.ej-tumblers-plus-footer {
+    display:flex;
+    padding: 20px 5px 20px 5px;
+}
+.footer-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-social-media {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-logo {
+    padding-left: 10px;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    font-family: tumblers-fancy;
+    width: 50%;
+}
+
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    gap: 15px;
+    line-height: 1em;
+    justify-content: center;
+    padding: 15px;
+}
+.footer-links > a {
+    text-decoration: none;
+    color:#504354;
+    text-align: center;
+
+}
+
+.footer-copy{
+    text-align: center;
+    font-size: 16px;
+}
+
+ .category-card {
+    max-height: 500px; 
+    max-width: 500px; 
+    margin:auto;
+ }
+
+  .wc-block-components-checkout-place-order-button{
+    font-size: 16px;
+    border-radius: 10px;
+    color: white;
+    background:#8E24CA;
+    text-shadow: 2px 2px 3px #504354;
+ }
+
+ .wc-block-cart__submit-button {
+    font-size: 16px;
+    border-radius: 10px;
+    color: white;
+    background:#8E24CA;
+    text-shadow: 2px 2px 3px #504354;
+
+ }
+
+ /*
+.related {
+    display:block!important;
+}
+*/
+
+/* .wc-block-grid__products {
+    display: flex;
+    justify-content: center;
+} */
+ .products {
+    /* display: flex;
+    flex-wrap: wrap;
+    gap: 20px; */
+    margin-top: 30px;
+    justify-content: center;
+    font-family: tumblers-fancy;
+ }
+
+ .product > a {
+    color:#504354;
+ }
+
+ .products > li {
+    list-style: none;
+ }
+@media  screen and (min-width: 990px ) {
+    .navbar-container-holder {
+        background-color: white;
+        padding: 0;
+    }
+
+    .ej-tumblers-navbar-logo {
+        height: 100%;
+    }
+
+    .toggle-button-wrapper {
+        background-color: white;
+        width: 0;
+    }
+
+    .offcanvas-body {
+        background-color: white;
+    }
+
+    .nav-item > a {
+        color:#504354!important;
+        text-shadow: none;
+        font-size: 1.2em;
+    }
+
+    .btn-outline-light {
+        color:#8E24CA;
+        border-color:#8E24CA;
+    }
+
+    .btn-outline-light:hover {
+        color:#BC36C0;
+        border-color:#BC36C0;
+    }
+
+    .navbar-nav {
+        justify-content: center!important;
+        gap: 20px;
+    }
+    
+}

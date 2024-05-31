@@ -306,6 +306,7 @@ font-family: Tumblers-Fancy;
  .search-details {
   display: flex;
   flex-direction: column;
+  font-family: tumblers-fancy;
  }
 
 

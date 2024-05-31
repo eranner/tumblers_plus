@@ -262,6 +262,10 @@ License: GNU General Public License v2 or later
 
  }
 
+ .search-results {
+padding-top:100px;
+font-family: Tumblers-Fancy;
+ }
 
  /*
 .related {

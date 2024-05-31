@@ -43,7 +43,7 @@ require('includes/navbar.php');
             </header>
             <div class="page-content">
                 <p><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'textdomain' ); ?></p>
-                <?php get_search_form(); ?>
+                <div class="search-again"><?php get_search_form(); ?></div>
             </div>
         </section>
     <?php endif; ?>

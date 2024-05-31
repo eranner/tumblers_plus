@@ -15,20 +15,26 @@ require('includes/navbar.php');
         <div class="search-results container">
             <?php while ( have_posts() ) : the_post(); ?>
                 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+                <div class="search-card-holder">
                 <?php if ( has_post_thumbnail() ) : ?>
+                    
                         <div class="search-thumbnail">
                             <a href="<?php the_permalink(); ?>">
-                                <?php the_post_thumbnail( 'thumbnail' ); ?>
+                                <?php the_post_thumbnail( 'thumbnail', ['class'=>'img-fluid'] ); ?>
                             </a>
                         </div>
                     <?php endif; ?>
-                    <header class="entry-header">
-                        <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-                    </header>
-                    <div class="entry-summary">
-                        <?php the_excerpt(); ?>
+                    <div class="search-details">
+                        <header class="entry-header">
+                            <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+                        </header>
+                        <div class="entry-summary">
+                            <?php the_excerpt(); ?>
+                        </div>
                     </div>
+
                 </article>
+                </div>
             <?php endwhile; ?>
 
             <?php the_posts_navigation(); ?>

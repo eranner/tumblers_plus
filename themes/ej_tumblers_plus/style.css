@@ -293,6 +293,22 @@ font-family: Tumblers-Fancy;
  .products > li {
     list-style: none;
  }
+
+ .search-card-holder {
+  max-width: 800px;
+  margin:auto;
+  display:flex;
+  gap: 20px;
+  margin-bottom: 20px;
+ }
+
+ .search-details {
+  display: flex;
+  flex-direction: column;
+ }
+
+
+
 @media  screen and (min-width: 990px ) {
     .navbar-container-holder {
         background-color: white;
